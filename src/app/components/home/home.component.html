@@ -1,0 +1,14 @@
+<h1>Home Page</h1>
+
+<mat-card>
+  <h2>Login as</h2>
+  <section>
+    <a routerLink="/home" [queryParams]="{ user: 'user' }">User</a>
+    <a routerLink="/home" [queryParams]="{ user: 'admin' }">Admin</a>
+    <a routerLink="/home" [queryParams]="">Logout</a>
+  </section>
+  <section>
+    <h2>Products list</h2>
+    <a routerLink="/products" queryParamsHandling="preserve">Products</a>
+  </section>
+</mat-card>

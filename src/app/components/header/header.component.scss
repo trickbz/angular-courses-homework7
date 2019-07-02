@@ -1,0 +1,11 @@
+.mat-card {
+  a {
+    margin-right: 10px;
+    color: blue;
+
+    &.active {
+      color: red;
+      font-weight: bold;
+    }
+  }
+}
